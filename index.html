@@ -201,12 +201,33 @@
 
 <section class="immobiliensuche">
   <h2>Finden Sie Ihre Immobilie</h2>
-  <select><option>Kauf & Miete</option></select>
-  <select><option>Alle Objektarten</option></select>
-  <input type="text" placeholder="PLZ / Ort / Straße" />
-  <select><option>25 km Umkreis</option></select>
-  <button>Suchen</button>
+  <form>
+    <select name="typ">
+      <option value="">Bitte wählen</option>
+      <option value="kaufen">Kaufen</option>
+      <option value="mieten">Mieten</option>
+    </select>
+
+    <select name="objektart">
+      <option value="">Alle Objektarten</option>
+      <option value="wohnung">Wohnung</option>
+      <option value="haus">Haus</option>
+      <option value="gewerbe">Gewerbe</option>
+      <option value="grundstueck">Grundstück</option>
+    </select>
+
+    <input type="text" name="ort" placeholder="PLZ / Ort / Straße" />
+
+    <select name="umkreis">
+      <option value="25">Umkreis: 25 km</option>
+      <option value="50">Umkreis: 50 km</option>
+      <option value="100">Umkreis: 100 km</option>
+    </select>
+
+    <button type="submit">Suchen</button>
+  </form>
 </section>
+
 
 <main>
   <section id="ueberuns">
