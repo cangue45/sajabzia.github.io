@@ -52,17 +52,14 @@
     nav a:hover {
       text-decoration: underline;
     }
-
     header {
       padding: 40px 20px;
       text-align: center;
       background-color: rgba(0, 0, 0, 0.6);
     }
-
     header h1 {
       font-size: 2.5em;
     }
-
     .immobiliensuche {
       background-color: rgba(255,255,255,0.1);
       padding: 30px;
@@ -78,7 +75,6 @@
       border: none;
       min-width: 180px;
     }
-
     main {
       padding: 30px 20px;
       background-color: rgba(0, 0, 0, 0.6);
@@ -90,11 +86,9 @@
       float: right;
       margin: 0 0 20px 20px;
     }
-
     section { margin-bottom: 60px; }
     ul { padding-left: 20px; }
     a { color: #aeeaff; }
-
     form {
       background: rgba(255,255,255,0.1);
       padding: 20px;
@@ -118,7 +112,6 @@
     form button:hover {
       background: #005f77;
     }
-
     iframe {
       width: 100%;
       height: 300px;
@@ -126,7 +119,6 @@
       border-radius: 12px;
       margin-top: 20px;
     }
-
     footer {
       background-color: rgba(255,255,255,0.1);
       padding: 30px 20px;
@@ -163,7 +155,6 @@
       margin-top: 30px;
       font-size: 0.9em;
     }
-
     @media (max-width: 768px) {
       nav {
         flex-direction: column;
@@ -181,103 +172,42 @@
   </style>
 </head>
 <body>
-
-<nav>
-  <div class="nav-left">
-    <a href="#ueberuns">🏠 Über uns</a>
-    <a href="#leistungen">🔧 Leistungen</a>
-    <a href="#kontakt">📞 Kontakt</a>
-  </div>
-  <div class="nav-right">
-    <a href="#impressum">Impressum</a>
-    <a href="#datenschutz">Datenschutz</a>
-  </div>
-</nav>
-
-<header>
-  <h1>Sajab Zia Immobilien</h1>
-  <p>Ihr Makler in Aschaffenburg – zuverlässig & transparent</p>
-</header>
-
-<section class="immobiliensuche">
-  <h2>Finden Sie Ihre Immobilie</h2>
-  <select><option>Kauf & Miete</option></select>
-  <select><option>Alle Objektarten</option></select>
-  <input type="text" placeholder="PLZ / Ort / Straße" />
-  <select><option>25 km Umkreis</option></select>
-  <button>Suchen</button>
-</section>
-
-<main>
-  <section id="ueberuns">
-    <h2>Über uns</h2>
-    <img src="C1A3DF09-8CD0-4FB6-B7DF-392CCF3590F7.jpeg" alt="Sajab Zia">
-    <p>Als erfahrener Immobilienmakler in Aschaffenburg bieten wir Ihnen professionelle Unterstützung beim Verkauf und der Vermietung Ihrer Immobilie – egal ob Bestandsimmobilie, Neubau oder Gewerbeobjekt.</p>
-  </section>
-
-  <section id="leistungen">
-    <h2>Unsere Leistungen</h2>
-    <ul>
-      <li>Verkauf und Vermietung von Bestandsimmobilien, Neubauten und Gewerbeimmobilien</li>
-      <li>Bewertung Ihrer Immobilie</li>
-      <li>Erstellung von Energieausweisen</li>
-    </ul>
-  </section>
-
-  <section id="kontakt">
-    <h2>Kontakt</h2>
-    <p><strong>Firma:</strong> Sajab Zia Immobilien</p>
-    <p><strong>Adresse:</strong> Reigersberger Straße 9, 63743 Aschaffenburg</p>
-    <p><strong>Telefon:</strong> <a href="tel:+4915756555456">0157 565 55456</a></p>
-    <p><strong>E-Mail:</strong> <a href="mailto:sajab@gmx.de">sajab@gmx.de</a></p>
-
-    <h3>Kontaktformular</h3>
-    <form action="mailto:sajab@gmx.de" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Ihr Name" required>
-      <input type="email" name="email" placeholder="Ihre E-Mail" required>
-      <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
-      <button type="submit">Absenden</button>
-    </form>
-
-    <h3>Hier finden Sie uns</h3>
-    <iframe src="https://maps.google.com/maps?q=Reigersberger%20Stra%C3%9Fe%209%2C%2063743%20Aschaffenburg&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-  </section>
-</main>
-
-<footer>
-  <div class="footer-columns">
-    <div>
-      <h4>Standorte</h4>
-      <ul>
-        <li>Aschaffenburg</li>
-        <li>Seligenstadt</li>
-        <li>Stockstadt</li>
-        <li>Miltenberg</li>
-      </ul>
+  <nav>
+    <div class="nav-left">
+      <a href="#ueberuns">🏠 Über uns</a>
+      <a href="#leistungen">🔧 Leistungen</a>
+      <a href="#kontakt">📞 Kontakt</a>
     </div>
-    <div>
-      <h4>Meistgesucht</h4>
-      <ul>
-        <li>Haus kaufen</li>
-        <li>Wohnung mieten</li>
-        <li>Makler werden</li>
-        <li>Bewertung</li>
-      </ul>
+    <div class="nav-right">
+      <a href="#impressum">Impressum</a>
+      <a href="#datenschutz">Datenschutz</a>
     </div>
-    <div>
-      <h4>Folgen Sie uns</h4>
-      <p class="social">
-        <a href="#"><i class="fab fa-facebook-square"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-xing"></i></a>
-      </p>
-    </div>
-  </div>
-
-  <div class="bottom">
-    <p>© 2025 Sajab Zia Immobilien | Aschaffenburg</p>
-  </div>
-</footer>
-
+  </nav>
+  <header>
+    <h1>Sajab Zia Immobilien</h1>
+    <p>Ihr Makler in Aschaffenburg – zuverlässig & transparent</p>
+  </header>
+  <section class="immobiliensuche">
+    <h2>Finden Sie Ihre Immobilie</h2>
+    <select name="art">
+      <option value="">Kaufen oder Mieten wählen</option>
+      <option value="kauf">Kauf</option>
+      <option value="miete">Miete</option>
+    </select>
+    <select name="objektart">
+      <option value="">Alle Objektarten</option>
+      <option value="wohnung">Wohnung</option>
+      <option value="haus">Haus</option>
+      <option value="gewerbe">Gewerbe</option>
+      <option value="grundstueck">Grundstück</option>
+    </select>
+    <input type="text" placeholder="PLZ / Ort / Straße" name="standort" />
+    <select name="umkreis">
+      <option value="25">25 km Umkreis</option>
+      <option value="50">50 km Umkreis</option>
+      <option value="100">100 km Umkreis</option>
+    </select>
+    <button>Suchen</button>
+  </section>
 </body>
 </html>
